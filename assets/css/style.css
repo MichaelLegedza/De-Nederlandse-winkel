@@ -30,7 +30,31 @@ body {
   width: 1400px;
   margin: 0 auto;
 }
-
+/* ---buttons--- */
+.btn {
+  width: 178px;
+  height: 45px;
+  border-radius: 25px;
+  padding: 13px;
+  cursor: pointer;
+  background-color: #ffd900;
+  border: 1px solid transparent;
+  color:  #161616;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  outline: 0;
+  transition: .3s ease-in-out;
+}
+.btn:hover {
+  box-shadow: 0px 0px 4px #0077ff,
+              0px 0px 8px #0077ff,
+              0px 0px 10px #0077ff;     
+  background-color: #0077ff;
+  border: 2px solid #ffd900;
+  color: #ebe3e3;
+  transition: color .3s linear, border .4s linear;
+}
 
 /* ---Header--- */
 .header {
@@ -232,49 +256,25 @@ body {
   color: #ebe3e3;
   background-color: #000000ea;
 }
-.intro .content__title {
+.intro__title {
   text-transform: uppercase;
   margin-bottom: 35px;
   font-size: 40px;
 }
-.intro .content__subtitle {
+.intro__subtitle {
   margin-bottom: 25px;
   font-size: 24px;
   color: #0077ff;
 }
-.intro .content__subtitle--describe {
+.intro__subtitle--describe {
   font-size: 32px;
   margin-bottom: 0px;
 }
-.intro .content__description {
+.intro__description {
   max-width: 460px;
   margin-bottom: 40px;
   font-size: 17px;
   letter-spacing: 0.8px;
-}
-.btn {
-  width: 178px;
-  height: 45px;
-  border-radius: 25px;
-  padding: 13px;
-  cursor: pointer;
-  background-color: #ffd900;
-  border: 1px solid transparent;
-  color:  #161616;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 14px;
-  outline: 0;
-  transition: .3s ease-in-out;
-}
-.btn:hover {
-  box-shadow: 0px 0px 4px #0077ff,
-              0px 0px 8px #0077ff,
-              0px 0px 10px #0077ff;     
-  background-color: #0077ff;
-  border: 2px solid #ffd900;
-  color: #ebe3e3;
-  transition: color .3s linear, border .4s linear;
 }
 
 
@@ -286,19 +286,19 @@ body {
     margin: 0;
     background-color: rgb(0, 0, 0, 0.8);
   }
-  .intro .content__title {
+  .intro__title {
     margin-bottom: 30px;
     font-size: 46px;
   }
-  .intro .content__subtitle {
+  .intro__subtitle {
     margin-bottom: 25px;
     font-size: 20px;
   }
-  .intro .content__subtitle--describe {
+  .intro__subtitle--describe {
     font-size: 25px;
     margin-bottom: 40px;
   }
-  .intro .content__description {
+  .intro__description {
     margin-bottom: 40px;
     font-size: 15px;
     letter-spacing: 0.8px;
@@ -309,24 +309,24 @@ body {
   .intro__content {
     padding: 75px 0px;
   }
-  .intro .content__subtitle {
+  .intro__subtitle {
     font-size: 25px;
   }
-  .intro .content__subtitle--describe {
+  .intro__subtitle--describe {
     font-size: 32px;
   }
-  .intro .content__description {
+  .intro__description {
     font-size: 17px;
   }
 }
 @media screen and (min-width: 1020px) {
-  .intro .content__title {
+  .intro__title {
     margin-bottom: 45px;
   }
-  .intro .content__subtitle {
+  .intro__subtitle {
     margin-bottom: 30px;
   }
-  .intro .content__subtitle--describe {
+  .intro__subtitle--describe {
     margin-bottom: 50px;
   }
 }
