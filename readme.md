@@ -2,5 +2,5 @@
 
 # Тестовое задание #
 
-[Demo](https://hades-corp.github.io/De-Nederlandse-winkel/ "Test") 
+[Demo](https://MichaelLegedza.github.io/De-Nederlandse-winkel/ "Test") 
 
